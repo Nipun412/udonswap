@@ -1,4 +1,4 @@
-import { ChainId, WETH9 } from "lampros-sor";
+// import { WETH9 } from "lampros-sor";
 import {
   USDC_MODE,
   USDT_MODE,
@@ -6,7 +6,7 @@ import {
 } from "constants/tokens";
 import { validateUrlChainParam } from "graphql/data/util";
 import { Chain } from "uniswap/src/data/graphql/uniswap-data-api/__generated__/types-and-hooks";
-
+import { ChainId, WETH9} from "lampros-core"
 import { MoonpaySupportedCurrencyCode } from "./constants";
 
 type MoonpaySupportedChain =

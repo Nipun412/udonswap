@@ -5,7 +5,7 @@ import {
   Token,
   TradeType,
 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { useWeb3React } from "@web3-react/core";
 import tryParseCurrencyAmount from "lib/utils/tryParseCurrencyAmount";
 import { useMemo, useRef } from "react";

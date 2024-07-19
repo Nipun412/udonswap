@@ -1,5 +1,5 @@
 import { Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { Pool, Position } from "lampros-v3";
 import { useAllTokensMultichain } from "hooks/Tokens";
 import { atom, useAtom } from "jotai";

@@ -1,5 +1,5 @@
 import { Currency, Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { useWeb3React } from "@web3-react/core";
 import { getChainInfo } from "constants/chainInfo";
 import {

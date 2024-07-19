@@ -1,6 +1,6 @@
 import { BigNumber } from "@ethersproject/bignumber";
 import { Currency, CurrencyAmount, TradeType } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import UniswapXBolt from "assets/svg/bolt.svg";
 import { nativeOnChain } from "constants/tokens";
 import { ChainTokenMap, useAllTokensMultichain } from "hooks/Tokens";

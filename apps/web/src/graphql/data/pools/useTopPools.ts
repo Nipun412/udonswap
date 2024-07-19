@@ -1,5 +1,5 @@
 import { Percent } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { exploreSearchStringAtom } from "components/Tokens/state";
 import { BIPS_BASE } from "constants/misc";
 import { OrderDirection, chainIdToBackendName } from "graphql/data/util";

@@ -1,6 +1,6 @@
 import { Contract } from "@ethersproject/contracts";
 import { InterfaceEventName } from "@uniswap/analytics-events";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import {
   ARGENT_WALLET_DETECTOR_ADDRESS,
   // ENS_REGISTRAR_ADDRESSES,

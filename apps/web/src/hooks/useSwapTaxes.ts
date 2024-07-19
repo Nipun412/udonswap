@@ -1,6 +1,6 @@
 import { InterfaceEventName } from "@uniswap/analytics-events";
 import { Percent } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { WETH_ADDRESS as getWethAddress } from "lampros-universal";
 import { useWeb3React } from "@web3-react/core";
 import { sendAnalyticsEvent } from "analytics";

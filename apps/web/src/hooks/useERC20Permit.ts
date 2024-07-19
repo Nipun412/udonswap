@@ -1,7 +1,7 @@
 import { BigNumber } from "@ethersproject/bignumber";
 import { splitSignature } from "@ethersproject/bytes";
 import { Currency, CurrencyAmount } from "lampros-core";
-// import { ChainId } from "lampros-sor"
+// import { ChainId } from "lampros-core"
 import { useWeb3React } from "@web3-react/core";
 import JSBI from "jsbi";
 import { useSingleCallResult } from "lib/hooks/multicall";

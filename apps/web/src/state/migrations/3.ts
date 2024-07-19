@@ -1,5 +1,5 @@
 import { Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { PersistState } from "redux-persist";
 import { UserState } from "state/user/reducer";
 import { serializeToken } from "state/user/utils";

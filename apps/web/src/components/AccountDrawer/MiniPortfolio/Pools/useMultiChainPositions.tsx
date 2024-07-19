@@ -1,5 +1,5 @@
-import { CurrencyAmount, Token } from "lampros-core";
-import { ChainId, V3_CORE_FACTORY_ADDRESSES } from "lampros-sor";
+import { CurrencyAmount, Token, ChainId, V3_CORE_FACTORY_ADDRESSES } from "lampros-core";
+// import {  V3_CORE_FACTORY_ADDRESSES } from "lampros-sor";
 import IUniswapV3PoolStateJSON from "@uniswap/v3-core/artifacts/contracts/interfaces/pool/IUniswapV3PoolState.sol/IUniswapV3PoolState.json";
 import { Pool, Position, computePoolAddress } from "lampros-v3";
 import { BigNumber } from "ethers/lib/ethers";

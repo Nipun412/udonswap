@@ -6,7 +6,7 @@ import {
   // UNI_ADDRESSES,
   WETH9,
 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 // import invariant from "tiny-invariant";
 
 // eslint-disable-next-line no-restricted-syntax

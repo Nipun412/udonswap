@@ -1,6 +1,6 @@
 import { MaxUint256, PERMIT2_ADDRESS } from "udonswap-permit2";
 import { Currency } from "lampros-core";
-// import { ChainId } from "lampros-sor"
+// import { ChainId } from "lampros-core"
 import { SupportedInterfaceChain } from "constants/chains";
 import { RPC_PROVIDERS } from "constants/providers";
 import { WRAPPED_NATIVE_CURRENCY } from "constants/tokens";

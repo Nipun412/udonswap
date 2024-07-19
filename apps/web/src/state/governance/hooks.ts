@@ -18,7 +18,7 @@
 //   // GOVERNANCE_BRAVO_ADDRESSES,
 //   Token,
 // } from "lampros-core";
-// import { ChainId } from "lampros-sor"
+// import { ChainId } from "lampros-core"
 // import {
 //   GOVERNANCE_ALPHA_V0_ADDRESSES,
 //   GOVERNANCE_ALPHA_V1_ADDRESSES,

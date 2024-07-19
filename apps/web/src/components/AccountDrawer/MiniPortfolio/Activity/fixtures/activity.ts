@@ -3,7 +3,7 @@ import {
 } from "lampros-core";
 import { NONFUNGIBLE_POSITION_MANAGER_ADDRESSES } from 'constants/addresses'
 
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { DAI_MODE } from "constants/tokens";
 import {
   AssetActivityPartsFragment,

@@ -38,12 +38,12 @@ export class Trade<
     readonly deadline: number;
     readonly slippageTolerance: number;
     // readonly v2Routes: {
-    //   routev2: V2RouteSDK<TInput, TOutput>;
+    //   routev3: V2RouteSDK<TInput, TOutput>;
     //   inputAmount: CurrencyAmount<TInput>;
     //   outputAmount: CurrencyAmount<TOutput>;
     // }[];
     readonly v2Routes: {
-      routev2: V3RouteSDK<TInput, TOutput>;
+      routev3: V3RouteSDK<TInput, TOutput>;
       inputAmount: CurrencyAmount<TInput>;
       outputAmount: CurrencyAmount<TOutput>;
     }[];

@@ -1,5 +1,5 @@
 import { Currency, CurrencyAmount, Percent } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { Field, SwapTab } from "components/swap/constants";
 import { parsedQueryString } from "hooks/useParsedQueryString";
 import { ParsedQs } from "qs";

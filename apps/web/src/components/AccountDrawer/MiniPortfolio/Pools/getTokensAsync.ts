@@ -1,5 +1,5 @@
 import { Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { Interface } from "ethers/lib/utils";
 import ERC20_ABI from "uniswap/src/abis/erc20.json";
 import { Erc20Interface } from "uniswap/src/abis/types/Erc20";

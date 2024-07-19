@@ -1,7 +1,7 @@
 import {
-  Token,
+  Token,ChainId
 } from "lampros-core";
-import type { ChainId, AddressMap } from "lampros-sor";
+import type {  AddressMap } from "lampros-sor";
 import { MULTICALL_ADDRESS, NONFUNGIBLE_POSITION_MANAGER_ADDRESSES as V3NFT_ADDRESSES } from 'constants/addresses'
 
 import NFTPositionManagerJSON from "@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json";

@@ -1,5 +1,5 @@
 import { Currency } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { UniswapXOrderDetails } from "state/signatures/types";
 import { TransactionStatus } from "uniswap/src/data/graphql/uniswap-data-api/__generated__/types-and-hooks";
 

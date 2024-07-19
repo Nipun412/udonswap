@@ -2,7 +2,7 @@
 // SUPPORTED_CHAINS,
 // V2_ROUTER_ADDRESSES,
 // } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 
 const SUPPORTED_CHAINS = [ChainId.MODE] as const
 

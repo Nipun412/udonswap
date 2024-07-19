@@ -4,7 +4,7 @@ import {
   Token,
   TradeType,
 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 // This file is lazy-loaded, so the import of smart-order-router-v3 is intentional.
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import { AlphaRouter, AlphaRouterConfig } from "lampros-sor";

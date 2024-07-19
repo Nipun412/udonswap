@@ -1,7 +1,7 @@
 import { TransactionRequest } from "@ethersproject/abstract-provider";
 import type { Web3Provider } from "@ethersproject/providers";
 import { Currency, CurrencyAmount } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { useWeb3React } from "@web3-react/core";
 import { useCallback } from "react";
 import ERC20_ABI from "uniswap/src/abis/erc20.json";

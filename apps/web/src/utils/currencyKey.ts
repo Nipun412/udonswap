@@ -1,5 +1,5 @@
 import { Currency } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { NATIVE_CHAIN_ID } from "constants/tokens";
 import { supportedChainIdFromGQLChain } from "graphql/data/util";
 import {

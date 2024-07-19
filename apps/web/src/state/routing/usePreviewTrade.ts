@@ -5,7 +5,7 @@ import {
   Percent,
   TradeType,
 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { ZERO_PERCENT } from "constants/misc";
 import useIsWindowVisible from "hooks/useIsWindowVisible";
 import { useMemo } from "react";

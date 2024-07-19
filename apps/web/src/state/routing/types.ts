@@ -9,7 +9,7 @@ import {
   Token,
   TradeType,
 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import {
   DutchOrderInfo,
   DutchOrderInfoJSON,
@@ -253,12 +253,12 @@ export class ClassicTrade extends Trade<Currency, Currency, TradeType> {
     approveInfo: ApproveInfo;
     swapFee?: SwapFeeInfo;
     // v2Routes: {
-    //   routev2: V2Route<Currency, Currency>;
+    //   routev3: V2Route<Currency, Currency>;
     //   inputAmount: CurrencyAmount<Currency>;
     //   outputAmount: CurrencyAmount<Currency>;
     // }[];
-    v2Routes: {
-      routev2: V3Route<Currency, Currency>;
+    v3Routes: {
+      routev3: V3Route<Currency, Currency>;
       inputAmount: CurrencyAmount<Currency>;
       outputAmount: CurrencyAmount<Currency>;
     }[];

@@ -87,11 +87,11 @@ export function transformTradingApiResponseToTrade(
     slippageTolerance: slippageTolerance ?? MAX_AUTO_SLIPPAGE_TOLERANCE,
     // v2Routes:
     //   routes?.flatMap((r) =>
-    //     r?.routev2 ? { ...r, routev2: r.routev2 } : []
+    //     r?.routev3 ? { ...r, routev3: r.routev3 } : []
     //   ) ?? [],
     v2Routes:
       routes?.flatMap((r) =>
-        r?.routev2 ? { ...r, routev2: r.routev2 } : []
+        r?.routev3 ? { ...r, routev3: r.routev3 } : []
       ) ?? [],
     // mixedRoutes:
     //   routes?.flatMap((r) =>
@@ -112,8 +112,8 @@ export function computeRoutesTradingApi(
   quoteResponse?: QuoteResponse
 ):
   | {
-    routev2: V3Route<Currency, Currency> | null;
-    // routev2: V2Route<Currency, Currency> | null;
+    routev3: V3Route<Currency, Currency> | null;
+    // routev3: V2Route<Currency, Currency> | null;
     mixedRoute: MixedRouteSDK<Currency, Currency> | null;
     inputAmount: CurrencyAmount<Currency>;
     outputAmount: CurrencyAmount<Currency>;
@@ -191,7 +191,7 @@ export function computeRoutesTradingApi(
             parsedCurrencyOut
           )
           : null,
-        // routev2: isOnlyV2
+        // routev3: isOnlyV2
         //   ? new V2Route(
         //     route.map(parseV2PairApi),
         //     parsedCurrencyIn,

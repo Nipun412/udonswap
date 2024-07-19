@@ -1,6 +1,6 @@
 import { BigNumber } from "@ethersproject/bignumber";
 import { Currency, WETH9 } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { FeeAmount, Pool, Position } from "lampros-v3";
 import { USDC_MODE } from "constants/tokens";
 import { PoolData } from "graphql/data/pools/usePoolData";

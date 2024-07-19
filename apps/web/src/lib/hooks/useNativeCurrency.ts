@@ -1,5 +1,5 @@
 import { NativeCurrency, Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import { nativeOnChain } from "constants/tokens";
 import { useMemo } from "react";
 

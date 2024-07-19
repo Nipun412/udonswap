@@ -1,6 +1,6 @@
 // a list of tokens by chain
 import { Currency, Token } from "lampros-core";
-import { ChainId } from "lampros-sor"
+import { ChainId } from "lampros-core"
 import {
   // ARB,
   // BTC_BSC,
